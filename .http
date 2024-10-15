@@ -5,6 +5,7 @@ POST {{host}}/reservations
 Content-Type: application/json
 
 {
+  "date": "Today @ 6pm",
   "restaurantId": 3,
   "customerIds": [1,2,3]
 }
